@@ -1,3 +1,5 @@
+It's clone trello with simple functionality
+
 
 ### `npm start`
 
