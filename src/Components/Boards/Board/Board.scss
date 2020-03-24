@@ -1,0 +1,38 @@
+
+.board-wrapper {
+	position: relative;
+	span {
+		color: rgb(76, 87, 92);
+	}
+	cursor: pointer;
+}
+
+.board {
+	width: 200px;
+	padding: 25px 25px;
+
+	// background-color: rgba(0, 149, 255, .5);
+	background-color: #ebecf0;
+	border-radius: 5px;
+	box-shadow: 2px 2px 7px rgb(76, 87, 92);
+	span {
+		color: rgb(76, 87, 92);
+		
+
+	}
+	cursor: pointer;
+	transition: .3s;
+	text-align: center;
+	&:hover {
+		text-shadow: none;
+		background-color: #ebecf0c9;
+
+
+	}
+	&__close {
+		position: absolute;
+		top: 15px;
+		right: 25px;
+		font-size: 20px !important;
+	}
+}

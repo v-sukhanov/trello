@@ -1,0 +1,95 @@
+
+.list {
+	user-select: none;
+	border-radius: 4px;
+	box-shadow: 2px 2px 7px rgb(76, 87, 92);
+	text-align: center;
+	padding: 5px;
+	margin: 15px 25px;
+	background-color: #ebecf0;
+	width: 242px;
+	&__title {
+		text-align: left;
+		color: rgb(62, 72, 77);
+		position: relative;
+	}
+	&__title-input {
+		width: 82%;
+		height: 100%;
+		padding: 9px;
+		background-color: transparent;
+		border: none;
+		color: rgb(47, 58, 63);
+		outline: none;
+		cursor: pointer;
+		border-radius: 5px;
+		border: 1px solid transparent;
+		font-weight: bold;
+
+		&:focus {
+			cursor: text;
+			background-color: white;
+			border: 1px solid #4da3ca
+		}
+		&:hover {
+			background-color: rgba(255, 255, 255, .4);
+	
+		}
+		&::placeholder {
+			color: rgb(47, 58, 63);
+			font-weight: bold;
+		}
+		
+	}
+
+	&__card {
+		box-shadow: .5px .5px 3px rgb(76, 87, 92);
+		background-color: white;
+		padding: 7px;
+		margin: 10px 5px 0px 5px;
+		border-radius: 4px;
+		text-align: left;
+		color: rgb(76, 87, 92);
+		cursor: pointer;
+		&_done {
+			opacity: .3;
+			text-decoration: line-through ;
+		}
+	}
+	&__close {
+		float: right;
+		cursor: pointer;
+	}
+	&__delete {
+		float: right;
+		cursor: pointer;
+		position: absolute;
+		// top: -13px;
+		right: 0px;
+		// color: #f5bb93 !important;
+		font-size: 20px !important;
+		transition: .1s;
+		&:hover {
+			color: rgb(63, 93, 107) !important;
+		}
+	}
+
+	&__item {
+		margin-top: 10px;
+		color: rgb(76, 87, 92);
+		box-shadow: none;
+		background-color: transparent;
+		padding: 0;	
+	}
+
+	span {
+		color: rgb(76, 87, 92);
+	}
+
+}
+
+.DropDownInput__input {
+	&::placeholder {
+		color: rgb(76, 87, 92);
+	}
+}
